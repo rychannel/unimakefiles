@@ -60,4 +60,4 @@ libraries[jquery_ui][destination] = "libraries"
 
 ; Includes
 ; Include other makefiles
-includes[example] = "wysiwyg.make"
+includes[wysiwyg] = "wysiwyg.make"
