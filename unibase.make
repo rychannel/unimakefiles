@@ -60,7 +60,3 @@ libraries[jquery_ui][destination] = "libraries"
 
 ; Includes
 ; Include other makefiles
-
-;Maintainers
-;Brandon Neil (bneil)
-;Peter Yezek (yezek)
