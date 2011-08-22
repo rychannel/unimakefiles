@@ -14,6 +14,7 @@ projects[drupal][type] = core
 projects[] = admin_menu
 ;give a choice between admin-based menus...
 projects[] = admin
+projects[] = adminrole
 projects[] = boost
 projects[] = calendar
 projects[] = captcha
