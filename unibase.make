@@ -19,6 +19,7 @@ projects[] = diff
 projects[form_builder][version] = 0.9
 projects[] = globalredirect
 projects[] = google_analytics
+projects[] = options_element
 projects[] = pathauto
 projects[] = recaptcha
 projects[] = redirect
