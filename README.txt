@@ -6,6 +6,7 @@ unibase.make includes a standard set of modules, libraries and themes that most 
 uniwysiwyg.make includes a standard set of modules and libraries that allow Drupal sites to use a WYSIWYG editor and file upload/browser based on Web Services best practices.
 
 Major differences between Drupal 6 and Drupal 7 makefiles
+* The uni_blocks module and fusion_uni theme have been commented out until a D7 version is available.
 * All CCK modules that are now in Drupal 7 core have been removed.
 * Imagecache is now in core and has been removed.
 * The jquery_ui module is no longer necessary since jquery_ui 1.8 is in Drupal 7 core.

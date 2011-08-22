@@ -12,11 +12,11 @@ projects[drupal][type] = core
 ;WYSIWYG and file upload-based modules are included in wysiwyg.make.
 
 projects[] = calendar
-projects[] = captcha
+projects[captcha][version] = 1
 projects[] = ctools
 projects[] = date
 projects[] = diff
-projects[] = form_builder
+projects[form_builder][version] = 0.9
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = pathauto
@@ -34,7 +34,7 @@ projects[] = webform
 ; Contrib themes
 ; Download base themes
 projects[] = fusion
-projects[] = omega
+projects[omega][version] = 3
 
 ; UNI themes
 ; Download custom base theme
