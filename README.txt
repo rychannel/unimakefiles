@@ -1,11 +1,17 @@
 
-Centralized Drupal 7 makefiles for University of Northern Iowa Drupal sites.
+Centralized Drupal makefiles for University of Northern Iowa Drupal sites.
 
-unibase.make includes a standard set of modules, libraries and themes that most if not all Drupal 7 sites will utilize.
+DRUPAL 6 AND DRUPAL 7
+unibase.make includes a standard set of modules, libraries and themes that most if not all Drupal sites will utilize.
 
-uniwysiwyg.make includes a standard set of modules and libraries that allow Drupal sites to use a WYSIWYG editor and file upload/browser based on Web Services best practices.
+wysiwyg.make includes a standard set of modules and libraries that allow Drupal sites to use a WYSIWYG editor and file upload/browser based on best practices.
 
-Major differences between Drupal 6 and Drupal 7 makefiles
+DRUPAL 6 ONLY
+department.make includes Drupal Features (http://drupal.org/project/features) that help build departmental sites.
+
+department_multi.make includes modules that play well with the UNI Drupal Features to allow them to be utilized in Spaces/Organic Groups configurations.
+
+MAJOR DIFFERENCES BETWEEN DRUPAL 6 AND DRUPAL 7 BASE MAKEFILES
 * The uni_blocks module and fusion_uni theme have been commented out until a D7 version is available.
 * All CCK modules that are now in Drupal 7 core have been removed.
 * Imagecache is now in core and has been removed.
@@ -19,4 +25,4 @@ Major differences between Drupal 6 and Drupal 7 makefiles
 
 Maintainers
 Brandon Neil (bneil)
-Peter Yezek (yezek)
+Peter Thompson-Yezek (yezek)
