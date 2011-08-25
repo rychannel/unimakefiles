@@ -16,6 +16,7 @@ projects[captcha][version] = 1
 projects[] = ctools
 projects[] = date
 projects[] = diff
+projects[] = entity
 projects[form_builder][version] = 0.9
 projects[] = globalredirect
 projects[] = google_analytics
@@ -23,9 +24,12 @@ projects[] = options_element
 projects[] = pathauto
 projects[] = recaptcha
 projects[] = redirect
+projects[] = rules
+projects[] = site_verify
 projects[] = token
 projects[] = views
 projects[] = webform
+projects[] = xmlsitemap
 
 ; UNI modules
 ; Download custom UNI modules

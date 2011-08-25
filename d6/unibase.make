@@ -32,11 +32,14 @@ projects[] = jquery_ui
 projects[] = pathauto
 projects[] = path_redirect
 projects[] = recaptcha
+projects[] = rules
+projects[] = site_verify
 projects[] = security_review
 projects[] = skinr
 projects[] = token
 projects[] = views
 projects[] = webform
+projects[] = xmlsitemap
 
 ;UNI modules
 ;Download custom UNI modules
