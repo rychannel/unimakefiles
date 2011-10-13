@@ -7,8 +7,10 @@ projects[] = wysiwyg
 projects[] = wysiwyg_filter
 
 ; Download modules to help with file uploading, organization and sanitation
-projects[media][version] = 1.0-beta5
+projects[] = media
 projects[] = transliteration
+projects[] = imce
+projects[] = imce_wysiwyg
 
 ; Libraries
 libraries[tinymce][download][type] = "get"
