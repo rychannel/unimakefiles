@@ -33,17 +33,16 @@ projects[] = xmlsitemap
 
 ; UNI modules
 ; Download custom UNI modules
-; projects[uni_blocks][subdir] = "custom"
-; projects[uni_blocks][location] = "http://www.uni.edu/features/fserver"
+projects[uni_blocks][subdir] = "custom"
+projects[uni_blocks][location] = "http://www.uni.edu/features/fserver"
 
 ; Contrib themes
 ; Download base themes
-projects[] = fusion
 projects[omega][version] = 3
 
 ; UNI themes
 ; Download custom base theme
-;projects[fusion_uni][location] = "http://www.uni.edu/features/fserver"
+projects[unibasetheme][location] = "http://www.uni.edu/features/fserver"
 
 ; Libraries
 ; Download helpful 3rd party libraries
