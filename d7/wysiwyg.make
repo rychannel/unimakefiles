@@ -10,6 +10,7 @@ projects[] = wysiwyg_filter
 projects[] = media
 projects[] = transliteration
 projects[] = imce
+projects[] = imce_mkdir
 projects[] = imce_wysiwyg
 
 ; Libraries
