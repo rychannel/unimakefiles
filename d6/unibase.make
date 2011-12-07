@@ -48,7 +48,11 @@ projects[uni_blocks][location] = "http://www.uni.edu/features/fserver"
 
 ;Contrib themes
 ;Download base themes
-projects[] = fusion
+;Hacky way to do this until http://drupal.org/node/1323404
+libraries[fusion][download][type] = "get"
+libraries[fusion][download][url] = "http://ftp.drupal.org/files/projects/fusion-6.x-1.12.tar.gz"
+libraries[fusion][directory_name] = "fusion"
+libraries[fusion][destination] = "themes"
 
 ;UNI themes
 ;Download custom base theme
