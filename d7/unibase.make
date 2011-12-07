@@ -21,6 +21,7 @@ projects[form_builder][version] = 0.9
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = options_element
+projects[] = module_filter
 projects[] = pathauto
 projects[] = recaptcha
 projects[] = redirect

@@ -29,6 +29,7 @@ projects[] = imageapi
 projects[] = imagecache
 projects[] = imagefield
 projects[] = jquery_ui
+projects[] = module_filter
 projects[] = pathauto
 projects[] = path_redirect
 projects[] = recaptcha
