@@ -1,6 +1,8 @@
 
 Centralized Drupal makefiles for University of Northern Iowa Drupal sites.
 
+For a change log, visit https://github.com/unidigitaldesign/unimakefiles/commits/master
+
 DRUPAL 6 AND DRUPAL 7
 unibase.make includes a standard set of modules, libraries and themes that most if not all Drupal sites will utilize.
 
@@ -12,7 +14,7 @@ department.make includes Drupal Features (http://drupal.org/project/features) th
 department_multi.make includes modules that play well with the UNI Drupal Features to allow them to be utilized in Spaces/Organic Groups configurations.
 
 MAJOR DIFFERENCES BETWEEN DRUPAL 6 AND DRUPAL 7 BASE MAKEFILES
-* The uni_blocks module and fusion_uni theme have been commented out until a D7 version is available.
+* fusion_uni theme have been commented out until a D7 version is available.
 * All CCK modules that are now in Drupal 7 core have been removed.
 * Imagecache is now in core and has been removed.
 * The jquery_ui module is no longer necessary since jquery_ui 1.8 is in Drupal 7 core.
@@ -21,7 +23,7 @@ MAJOR DIFFERENCES BETWEEN DRUPAL 6 AND DRUPAL 7 BASE MAKEFILES
 * Added the form_builder module which includes UI improvements to webform.
 * Most of better_formats has been added to Drupal 7 core and has been removed.
 * Ctools is now required for views so it has been added.
-* The imce and imce_wysiwyg modules have been removed in favor of the media module framework. 
+* Media modules have been added for future deprecation of IMCE modules. 
 
 Maintainers
 Brandon Neil (bneil)
