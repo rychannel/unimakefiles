@@ -22,7 +22,5 @@ projects[] = imce_wysiwyg
 projects[] = transliteration
 
 ; Libraries
-libraries[tinymce][download][type] = "git"
-libraries[tinymce][download][url] = "git://github.com/tinymce/tinymce.git"
-libraries[tinymce][download][tag] = "3.3.9.4"
-libraries[tinymce][destination] = "libraries"
+libraries[tinymce][download][type] = "file"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.3.9.4.zip"
