@@ -70,3 +70,4 @@ libraries[jquery_ui][destination] = "libraries"
 ; Includes
 ; Include other makefiles
 includes[wysiwyg] = "wysiwyg.make"
+includes[catid] = "catid.make"

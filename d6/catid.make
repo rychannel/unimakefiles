@@ -11,6 +11,6 @@ projects[] = session443
 ; projects[catid][location] = "http://www.uni.edu/features/fserver"
 
 ; Libraries
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://downloads.jasig.org/cas-clients/php/current.tgz"
-libraries[tinymce][destination] = "libraries"
+; libraries[CAS][download][type] = "get"
+; libraries[CAS][download][url] = "http://downloads.jasig.org/cas-clients/php/current.tgz"
+; libraries[CAS][destination] = "libraries"
