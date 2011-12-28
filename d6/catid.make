@@ -2,7 +2,6 @@
 
 ; Download modules from Drupal.org
 projects[] = cas
-projects[] = libraries
 projects[] = session443
 
 ;Download custom UNI modules
