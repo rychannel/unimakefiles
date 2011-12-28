@@ -29,6 +29,7 @@ projects[] = imageapi
 projects[] = imagecache
 projects[] = imagefield
 projects[] = jquery_ui
+projects[] = libraries
 projects[] = module_filter
 projects[] = options_element
 projects[] = pathauto

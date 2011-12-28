@@ -20,6 +20,7 @@ projects[] = entity
 projects[form_builder][version] = 0.9
 projects[] = globalredirect
 projects[] = google_analytics
+projects[] = libraries
 projects[] = module_filter
 projects[] = options_element
 projects[] = pathauto
