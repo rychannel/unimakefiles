@@ -32,6 +32,7 @@ projects[] = jquery_ui
 projects[] = libraries
 projects[] = module_filter
 projects[] = options_element
+projects[] = page_title
 projects[] = pathauto
 projects[] = path_redirect
 projects[] = recaptcha

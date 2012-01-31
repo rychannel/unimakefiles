@@ -23,6 +23,7 @@ projects[] = google_analytics
 projects[] = libraries
 projects[] = module_filter
 projects[] = options_element
+projects[] = page_title
 projects[] = pathauto
 projects[] = recaptcha
 projects[] = redirect
