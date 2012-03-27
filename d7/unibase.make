@@ -16,7 +16,6 @@ projects[captcha][version] = 1
 projects[] = ctools
 projects[] = date
 projects[] = diff
-projects[] = entity
 projects[form_builder][version] = 0.9
 projects[] = globalredirect
 projects[] = google_analytics
@@ -38,6 +37,7 @@ projects[] = xmlsitemap
 ; UNI modules
 ; Download custom UNI modules
 projects[uni_blocks][subdir] = "custom"
+projects[uni_blocks][type] = "module"
 projects[uni_blocks][location] = "http://www.uni.edu/features/fserver"
 
 ; Contrib themes
@@ -47,6 +47,7 @@ projects[omega][version] = 3
 ; UNI themes
 ; Download custom base theme
 projects[unibasetheme][location] = "http://www.uni.edu/features/fserver"
+projects[unibasetheme][type] = "theme"
 
 ; Libraries
 ; Download helpful 3rd party libraries
