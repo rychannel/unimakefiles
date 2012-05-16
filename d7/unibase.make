@@ -38,7 +38,16 @@ projects[] = xmlsitemap
 ; Download custom UNI modules
 projects[uni_blocks][subdir] = "custom"
 projects[uni_blocks][type] = "module"
-projects[uni_blocks][location] = "http://www.uni.edu/features/fserver"
+projects[uni_blocks][download][type] = "git"
+projects[uni_blocks][download][tag] = "7.x-1.0-alpha2"
+projects[uni_blocks][download][url] = "git://github.com/unidigitaldesign/uni_blocks.git"
+
+projects[catid][subdir] = "custom"
+projects[catid][type] = "module"
+projects[catid][download][type] = "git"
+projects[catid][download][tag] = "7.x-1.0"
+projects[catid][download][url] = "git://github.com/unidigitaldesign/catid.git"
+
 
 ; Contrib themes
 ; Download base themes
@@ -46,8 +55,11 @@ projects[omega][version] = 3
 
 ; UNI themes
 ; Download custom base theme
-projects[unibasetheme][location] = "http://www.uni.edu/features/fserver"
 projects[unibasetheme][type] = "theme"
+projects[unibasetheme][download][type] = "git"
+projects[unibasetheme][download][tag] = "7.x-1.3"
+projects[unibasetheme][download][url] = "git://github.com/unidigitaldesign/unibasetheme.git"
+
 
 ; Libraries
 ; Download helpful 3rd party libraries

@@ -5,13 +5,25 @@ api = 2
 
 ; Download custom UNI features
 projects[uni_events][subdir] = "custom"
-projects[uni_events][location] = "http://www.uni.edu/features/fserver"
+projects[uni_events][type] = "module"
+projects[uni_events][download][type] = "git"
+projects[uni_events][download][tag] = "7.x-1.0-beta1"
+projects[uni_events][download][url] = "git://github.com/unidigitaldesign/uni_events.git"
+
 
 projects[uni_events_parser][subdir] = "custom"
-projects[uni_events_parser][location] = "http://www.uni.edu/features/fserver"
+projects[uni_events_parser][type] = "module"
+projects[uni_events_parser][download][type] = "git"
+projects[uni_events_parser][download][tag] = "7.x-1.0-beta1"
+projects[uni_events_parser][download][url] = "git://github.com/unidigitaldesign/uni_events_parser.git"
+
 
 projects[uni_events_fullcalendar][subdir] = "custom"
-projects[uni_events_fullcalendar][location] = "http://www.uni.edu/features/fserver"
+projects[uni_events_fullcalendar][type] = "module"
+projects[uni_events_fullcalendar][download][type] = "git"
+projects[uni_events_fullcalendar][download][tag] = "7.x-1.0-beta1"
+projects[uni_events_fullcalendar][download][url] = "git@github.com:unidigitaldesign/uni_events_fullcalendar.git"
+
 
 ; Download modules for base UNI Events feature
 projects[] = features

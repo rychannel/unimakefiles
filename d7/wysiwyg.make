@@ -10,11 +10,15 @@ projects[] = wysiwyg_filter
 ;Download custom UNI modules
 projects[video_filter_unipanopto][subdir] = "custom"
 projects[video_filter_unipanopto][type] = "module"
-projects[video_filter_unipanopto][location] = "http://www.uni.edu/features/fserver"
+projects[video_filter_unipanopto][download][type] = "git"
+projects[video_filter_unipanopto][download][tag] = "7.x-1.0-beta1"
+projects[video_filter_unipanopto][download][url] = "git://github.com/unidigitaldesign/video_filter_unipanopto.git"
 
 projects[video_filter_unihelix][subdir] = "custom"
 projects[video_filter_unihelix][type] = "module"
-projects[video_filter_unihelix][location] = "http://www.uni.edu/features/fserver"
+projects[video_filter_unihelix][download][type] = "git"
+projects[video_filter_unihelix][download][tag] = "7.x-1.0-beta1"
+projects[video_filter_unihelix][download][url] = "git://github.com/unidigitaldesign/video_filter_unihelix.git"
 
 ; Download modules to help with file uploading, organization and sanitation
 projects[] = media
