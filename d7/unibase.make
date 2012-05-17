@@ -11,17 +11,29 @@ projects[drupal][type] = core
 ;Includes all contrib modules from Peter's provisioning script except for Node Hierarchy.
 ;WYSIWYG and file upload-based modules are included in wysiwyg.make.
 
+projects[] = auto_entitylabel
 projects[] = calendar
+projects[] = cas
 projects[captcha][version] = 1
+projects[] = colorbox
+projects[] = context
+projects[] = context_menu_block
 projects[] = ctools
 projects[] = date
 projects[] = diff
+projects[draggableviews][version] = 2
+projects[] = field_group
 projects[] = form_builder
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = libraries
+projects[] = logintoboggan
+projects[] = masquerade
+projects[] = menu_block
 projects[] = module_filter
+projects[] = omega_tools
 projects[] = options_element
+projects[] = override_node_options
 projects[] = page_title
 projects[] = pathauto
 projects[] = recaptcha
@@ -30,7 +42,9 @@ projects[] = rules
 projects[] = select_or_other
 projects[] = site_verify
 projects[] = token
+projects[] = view_unpublished
 projects[] = views
+projects[] = views_slideshow
 projects[] = webform
 projects[] = xmlsitemap
 
@@ -63,6 +77,14 @@ projects[unibasetheme][download][url] = "git://github.com/unidigitaldesign/uniba
 
 ; Libraries
 ; Download helpful 3rd party libraries
+
+libraries[colorbox][download][type] = get
+libraries[colorbox][download][url] = http://colorpowered.com/colorbox/colorbox.zip
+
+libraries[jquery.cycle][download][type] = "get"
+; Permissions wrong when specifying single file. See http://drupal.org/node/1459618.
+; libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
+libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/tarball/master"
 
 ; Includes
 ; Include other makefiles
