@@ -62,6 +62,12 @@ projects[catid][download][type] = "git"
 projects[catid][download][tag] = "7.x-1.0"
 projects[catid][download][url] = "git://github.com/unidigitaldesign/catid.git"
 
+projects[uni_search][subdir] = "custom"
+projects[uni_search][type] = "module"
+projects[uni_search][download][type] = "git"
+projects[uni_search][download][tag] = "7.x-1.0-rc1"
+projects[uni_search][download][url] = "git://github.com/unidigitaldesign/uni_search.git"
+
 
 ; Contrib themes
 ; Download base themes
