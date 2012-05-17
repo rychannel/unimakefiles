@@ -22,11 +22,17 @@ projects[] = ctools
 projects[] = date
 projects[] = diff
 projects[draggableviews][version] = 2
+projects[] = features
+projects[] = feeds
+projects[] = feeds_xpathparser
 projects[] = field_group
 projects[] = form_builder
+projects[] = fullcalendar
 projects[] = globalredirect
 projects[] = google_analytics
+projects[job_scheduler][version] = 2
 projects[] = libraries
+projects[] = link
 projects[] = logintoboggan
 projects[] = masquerade
 projects[] = menu_block
@@ -41,6 +47,7 @@ projects[] = redirect
 projects[] = rules
 projects[] = select_or_other
 projects[] = site_verify
+projects[] = strongarm
 projects[] = token
 projects[] = view_unpublished
 projects[] = views
@@ -68,6 +75,25 @@ projects[uni_search][download][type] = "git"
 projects[uni_search][download][tag] = "7.x-1.0-rc1"
 projects[uni_search][download][url] = "git://github.com/unidigitaldesign/uni_search.git"
 
+; Download custom UNI features
+projects[uni_events][subdir] = "custom"
+projects[uni_events][type] = "module"
+projects[uni_events][download][type] = "git"
+projects[uni_events][download][tag] = "7.x-1.0-beta1"
+projects[uni_events][download][url] = "git://github.com/unidigitaldesign/uni_events.git"
+
+projects[uni_events_parser][subdir] = "custom"
+projects[uni_events_parser][type] = "module"
+projects[uni_events_parser][download][type] = "git"
+projects[uni_events_parser][download][tag] = "7.x-1.0-beta1"
+projects[uni_events_parser][download][url] = "git://github.com/unidigitaldesign/uni_events_parser.git"
+
+projects[uni_events_fullcalendar][subdir] = "custom"
+projects[uni_events_fullcalendar][type] = "module"
+projects[uni_events_fullcalendar][download][type] = "git"
+projects[uni_events_fullcalendar][download][tag] = "7.x-1.0-beta1"
+projects[uni_events_fullcalendar][download][url] = "git@github.com:unidigitaldesign/uni_events_fullcalendar.git"
+
 
 ; Contrib themes
 ; Download base themes
@@ -91,6 +117,10 @@ libraries[jquery.cycle][download][type] = "get"
 ; Permissions wrong when specifying single file. See http://drupal.org/node/1459618.
 ; libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
 libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/tarball/master"
+
+libraries[fullcalendar][download][type] = "get"
+libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloads/fullcalendar-1.5.3.zip"
+libraries[fullcalendar][download][subtree] = "fullcalendar"
 
 ; Includes
 ; Include other makefiles
