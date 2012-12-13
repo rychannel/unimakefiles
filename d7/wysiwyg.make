@@ -21,13 +21,12 @@ projects[video_filter_unihelix][download][tag] = "7.x-1.0-beta1"
 projects[video_filter_unihelix][download][url] = "git://github.com/unidigitaldesign/video_filter_unihelix.git"
 
 ; Download modules to help with file uploading, organization and sanitation
-projects[] = media
 projects[] = transliteration
 projects[] = imce
 projects[] = imce_mkdir
 projects[] = imce_wysiwyg
 
 ; Libraries
-libraries[tinymce][download][type] = "git"
-libraries[tinymce][download][tag] = "3.4.7"
-libraries[tinymce][download][url] = "http://wwwdev.uni.edu/git/tinymce/.git"
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://github.com/downloads/tinymce/tinymce/tinymce_3.5.8.zip"
+libraries[tinymce][destination] = "libraries"
