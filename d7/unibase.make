@@ -98,6 +98,8 @@ projects[uni_events_fullcalendar][download][url] = "git@github.com:unidigitaldes
 ; Contrib themes
 ; Download base themes
 projects[omega][version] = 3
+; Patch for Omega pager width
+projects[omega][patch][] = "http://drupal.org/files/dynamic_pager-1447146-4.patch"
 
 ; UNI themes
 ; Download custom base theme
