@@ -93,7 +93,7 @@ projects[uni_events_fullcalendar][subdir] = "custom"
 projects[uni_events_fullcalendar][type] = "module"
 projects[uni_events_fullcalendar][download][type] = "git"
 projects[uni_events_fullcalendar][download][tag] = "7.x-1.0-beta1"
-projects[uni_events_fullcalendar][download][url] = "git@github.com:unidigitaldesign/uni_events_fullcalendar.git"
+projects[uni_events_fullcalendar][download][url] = "git://github.com/unidigitaldesign/uni_events_fullcalendar.git"
 
 
 ; Contrib themes
