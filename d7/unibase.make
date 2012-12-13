@@ -60,7 +60,7 @@ projects[] = xmlsitemap
 projects[uni_blocks][subdir] = "custom"
 projects[uni_blocks][type] = "module"
 projects[uni_blocks][download][type] = "git"
-projects[uni_blocks][download][tag] = "7.x-1.0-alpha2"
+projects[uni_blocks][download][tag] = "7.x-1.1"
 projects[uni_blocks][download][url] = "git://github.com/unidigitaldesign/uni_blocks.git"
 
 projects[catid][subdir] = "custom"
@@ -85,7 +85,7 @@ projects[uni_events][download][url] = "git://github.com/unidigitaldesign/uni_eve
 projects[uni_events_parser][subdir] = "custom"
 projects[uni_events_parser][type] = "module"
 projects[uni_events_parser][download][type] = "git"
-projects[uni_events_parser][download][tag] = "7.x-1.0-beta1"
+projects[uni_events_parser][download][tag] = "7.x-1.0"
 projects[uni_events_parser][download][url] = "git://github.com/unidigitaldesign/uni_events_parser.git"
 
 projects[uni_events_fullcalendar][subdir] = "custom"
@@ -103,7 +103,7 @@ projects[omega][version] = 3
 ; Download custom base theme
 projects[unibasetheme][type] = "theme"
 projects[unibasetheme][download][type] = "git"
-projects[unibasetheme][download][tag] = "7.x-1.3"
+projects[unibasetheme][download][tag] = "7.x-1.4"
 projects[unibasetheme][download][url] = "git://github.com/unidigitaldesign/unibasetheme.git"
 
 
