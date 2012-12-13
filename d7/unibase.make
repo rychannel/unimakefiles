@@ -57,6 +57,7 @@ projects[] = xmlsitemap
 
 ; UNI modules
 ; Download custom UNI modules
+; In the future we could get the modules from the UNI features server instead of GIT. See http://drupal.org/node/1520802.
 projects[uni_blocks][subdir] = "custom"
 projects[uni_blocks][type] = "module"
 projects[uni_blocks][download][type] = "git"
@@ -126,4 +127,4 @@ libraries[fullcalendar][download][subtree] = "fullcalendar"
 
 ; Includes
 ; Include other makefiles
-includes[example] = "wysiwyg.make"
+includes[wysiwyg] = "wysiwyg.make"
