@@ -112,8 +112,8 @@ projects[unibasetheme][download][url] = "git://github.com/unidigitaldesign/uniba
 ; Libraries
 ; Download helpful 3rd party libraries
 
-libraries[colorbox][download][type] = get
-libraries[colorbox][download][url] = http://colorpowered.com/colorbox/colorbox.zip
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
 
 libraries[jquery.cycle][download][type] = "get"
 ; Permissions wrong when specifying single file. See http://drupal.org/node/1459618.
