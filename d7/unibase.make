@@ -99,8 +99,8 @@ projects[uni_events_fullcalendar][download][url] = "git://github.com/unidigitald
 ; Contrib themes
 ; Download base themes
 projects[omega][version] = 3
-; Patch for Omega pager width
-projects[omega][patch][] = "http://drupal.org/files/dynamic_pager-1447146-4.patch"
+; Patch for Omega pager width. This is not working as expected.
+; projects[omega][patch][] = "http://drupal.org/files/dynamic_pager-1447146-4.patch"
 
 ; UNI themes
 ; Download custom base theme
@@ -122,8 +122,8 @@ libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://github.com/malsup/cycle/tarball/master"
 
 libraries[fullcalendar][download][type] = "get"
-libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloads/fullcalendar-1.5.3.zip"
-libraries[fullcalendar][download][subtree] = "fullcalendar"
+libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloads/fullcalendar-1.5.4.zip"
+libraries[fullcalendar][download][subtree] = "fullcalendar-1.5.4/fullcalendar"
 
 ; Includes
 ; Include other makefiles
