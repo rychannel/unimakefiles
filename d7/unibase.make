@@ -6,6 +6,11 @@ api = 2
 ;============================================
 projects[drupal][type] = core
 
+;Install profile
+projects[uni_standard][type] = profile
+projects[uni_standard][download][type] = git
+projects[uni_standard][download][url] = git@github.com:unidigitaldesign/uni_install_profiles.git
+
 ;Contrib modules
 ;Download necessary contributed modules
 ;Includes all contrib modules from Peter's provisioning script except for Node Hierarchy.
