@@ -23,8 +23,10 @@ MAJOR DIFFERENCES BETWEEN DRUPAL 6 AND DRUPAL 7 BASE MAKEFILES
 * Added the form_builder module which includes UI improvements to webform.
 * Most of better_formats has been added to Drupal 7 core and has been removed.
 * Ctools is now required for views so it has been added.
-* Media modules have been added for future deprecation of IMCE modules. 
 
-Maintainers
+Current maintainer
+Genevieve Johnson (becicka)
+
+Past maintainers
 Brandon Neil (bneil)
 Peter Thompson-Yezek (yezek)
