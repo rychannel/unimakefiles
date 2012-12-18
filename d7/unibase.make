@@ -6,10 +6,10 @@ api = 2
 ;============================================
 projects[drupal][type] = core
 
-;Install profile
+;Install profiles
 projects[uni_standard][type] = profile
 projects[uni_standard][download][type] = git
-projects[uni_standard][download][url] = git@github.com:unidigitaldesign/uni_install_profiles.git
+projects[uni_standard][download][url] = git://github.com/unidigitaldesign/uni_standard_profile.git
 
 ;Contrib modules
 ;Download necessary contributed modules
